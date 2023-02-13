@@ -1,0 +1,24 @@
+{
+  "name": "tw-simple-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ry-animal/tw-simple-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ry-animal/tw-simple-starter/issues"
+  },
+  "homepage": "https://github.com/ry-animal/tw-simple-starter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
